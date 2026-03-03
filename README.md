@@ -70,7 +70,7 @@
 
 > *"Without music, life would be a mistake."* — Friedrich Nietzsche
 
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kezyko&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" alt="Spotify Now Playing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=3000&pause=1000&color=1DB954&center=true&vCenter=true&multiline=false&width=600&height=50&lines=%F0%9F%8E%B5+Now+Vibing+on+Spotify;%F0%9F%8E%A7+Music+Is+My+Religion;%F0%9F%8E%B6+Code+%26+Chill+Mode;%F0%9F%8E%A4+Indonesia+Vibes+%F0%9F%87%AE%F0%9F%87%A9" alt="Now Playing" />
 
 <br/>
 
