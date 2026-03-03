@@ -114,15 +114,15 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kezyko&show_icons=true&theme=radical&border_radius=15&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff" height="180" alt="Kezyko's GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api?username=kezyko&show_icons=true&theme=radical&border_radius=15&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&cache_seconds=86400" height="180" alt="Kezyko's GitHub statistics"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kezyko&layout=compact&theme=radical&border_radius=15&hide_border=true&langs_count=8&bg_color=0D1117&title_color=a855f7&text_color=ffffff" height="180" alt="Kezyko's top programming languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kezyko&layout=compact&theme=radical&border_radius=15&hide_border=true&langs_count=8&bg_color=0D1117&title_color=a855f7&text_color=ffffff&cache_seconds=86400" height="180" alt="Kezyko's top programming languages"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kezyko&theme=radical&border_radius=15&hide_border=true&background=0D1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakLabel=a855f7" width="600" alt="Kezyko's GitHub streak stats"/>
+<img src="https://streak-stats.demolab.com/?user=kezyko&theme=radical&border_radius=15&hide_border=true&background=0D1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakLabel=a855f7" width="600" alt="Kezyko's GitHub streak stats"/>
 
 </div>
 
@@ -206,7 +206,7 @@
 
 ### 👀 Profile Visitors
 
-![Visitor Count](https://profile-counter.glitch.me/kezyko/count.svg)
+![Visitor Count](https://komarev.com/ghpvc/?username=kezyko&color=blueviolet&style=flat-square&label=Profile+Views)
 
 <br/>
 
