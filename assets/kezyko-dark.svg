@@ -1,44 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Kezyko</title>
-  <desc id="desc">A large Kezyko wordmark beside a violet vinyl record whose centre is a pair of code brackets around the spindle hole.</desc>
+  <desc id="desc">A large Kezyko wordmark above an animated equaliser, beside a slowly spinning vinyl record whose centre is a pair of code brackets around the spindle hole.</desc>
 
-  <text x="48" y="214" fill="#F1EDF8" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="168" font-weight="700" letter-spacing="-7">Kezyko</text>
+  <text x="48" y="214" fill="#F1EDF8" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="152" font-weight="700" letter-spacing="-7">Kezyko</text>
 
-  <!-- vinyl -->
-  <g transform="translate(963 150) scale(1.1) translate(-975 -150)">
-  <g fill="none" stroke="#49405B" stroke-width="1" opacity="0.8">
-    <circle cx="975" cy="150" r="145" stroke-width="2"/>
-    <circle cx="975" cy="150" r="133"/>
-    <circle cx="975" cy="150" r="121"/>
-    <circle cx="975" cy="150" r="109"/>
-    <circle cx="975" cy="150" r="97"/>
-    <circle cx="975" cy="150" r="85"/>
-    <circle cx="975" cy="150" r="73"/>
+  <!-- equaliser: music, on repeat -->
+  <g fill="#BFA3FF">
+    <rect x="52"  y="260" width="10" height="12" rx="3"><animate attributeName="height" values="12;32;18;38;12" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="260;240;254;234;260" dur="1.1s" repeatCount="indefinite"/></rect>
+    <rect x="70"  y="250" width="10" height="22" rx="3" opacity="0.85"><animate attributeName="height" values="22;44;16;30;22" dur="1.45s" repeatCount="indefinite"/><animate attributeName="y" values="250;228;256;242;250" dur="1.45s" repeatCount="indefinite"/></rect>
+    <rect x="88"  y="238" width="10" height="34" rx="3"><animate attributeName="height" values="34;14;40;20;34" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="238;258;232;252;238" dur="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="106" y="256" width="10" height="16" rx="3" opacity="0.85"><animate attributeName="height" values="16;36;14;42;16" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="256;236;258;230;256" dur="1.3s" repeatCount="indefinite"/></rect>
+    <rect x="124" y="244" width="10" height="28" rx="3"><animate attributeName="height" values="28;12;34;16;28" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="244;260;238;256;244" dur="1.6s" repeatCount="indefinite"/></rect>
+    <rect x="142" y="262" width="10" height="10" rx="3" opacity="0.85"><animate attributeName="height" values="10;26;12;30;10" dur="1.05s" repeatCount="indefinite"/><animate attributeName="y" values="262;246;260;242;262" dur="1.05s" repeatCount="indefinite"/></rect>
   </g>
 
-  <!-- light catching the grooves -->
-  <g fill="none" stroke="#BFA3FF" stroke-width="3" stroke-linecap="round" opacity="0.7">
-    <path d="M 1039 35 A 133 133 0 0 1 1083 88"/>
-    <path d="M 911 265 A 133 133 0 0 1 867 212"/>
-  </g>
-  <g fill="none" stroke="#BFA3FF" stroke-width="1.5" stroke-linecap="round" opacity="0.45">
-    <path d="M 1030 52 A 109 109 0 0 1 1066 94"/>
-    <path d="M 920 248 A 109 109 0 0 1 884 206"/>
-  </g>
+  <g transform="translate(970 160) scale(1.05) translate(-970 -160)">
+    <!-- the record itself turns -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 970 160" to="360 970 160" dur="14s" repeatCount="indefinite"/>
 
-  <!-- label -->
-  <circle cx="975" cy="150" r="44" fill="#BFA3FF" fill-opacity="0.12" stroke="#BFA3FF" stroke-width="1.5"/>
-  <g fill="none" stroke="#BFA3FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 961 137 L 947 150 L 961 163"/>
-    <path d="M 989 137 L 1003 150 L 989 163"/>
-  </g>
-  <circle cx="975" cy="150" r="5" fill="#BFA3FF"/>
+      <g fill="none" stroke="#49405B" stroke-width="1" opacity="0.8">
+        <circle cx="970" cy="160" r="150" stroke-width="2"/>
+        <circle cx="970" cy="160" r="137"/>
+        <circle cx="970" cy="160" r="124"/>
+        <circle cx="970" cy="160" r="111"/>
+        <circle cx="970" cy="160" r="98"/>
+        <circle cx="970" cy="160" r="85"/>
+        <circle cx="970" cy="160" r="72"/>
+      </g>
 
-  <!-- tonearm -->
-  <g stroke="#F1EDF8" fill="none" stroke-linecap="round">
-    <path d="M 1166 40 L 1036 126" stroke-width="5"/>
-    <circle cx="1166" cy="40" r="11" stroke-width="3"/>
-  </g>
-  <rect x="1018" y="118" width="26" height="16" rx="3" fill="#F1EDF8" transform="rotate(-33 1031 126)"/>
+      <g fill="none" stroke="#BFA3FF" stroke-width="3" stroke-linecap="round" opacity="0.7">
+        <path d="M 1034 45 A 137 137 0 0 1 1079 98"/>
+        <path d="M 906 275 A 137 137 0 0 1 861 222"/>
+      </g>
+      <g fill="none" stroke="#BFA3FF" stroke-width="1.5" stroke-linecap="round" opacity="0.45">
+        <path d="M 1025 62 A 111 111 0 0 1 1061 104"/>
+        <path d="M 915 258 A 111 111 0 0 1 879 216"/>
+      </g>
+
+      <circle cx="970" cy="160" r="45" fill="#BFA3FF" fill-opacity="0.12" stroke="#BFA3FF" stroke-width="1.5"/>
+      <g fill="none" stroke="#BFA3FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 956 146 L 941 160 L 956 174"/>
+        <path d="M 984 146 L 999 160 L 984 174"/>
+      </g>
+      <circle cx="970" cy="160" r="5" fill="#BFA3FF"/>
+    </g>
+
+    <!-- tonearm stays put -->
+    <g stroke="#F1EDF8" fill="none" stroke-linecap="round">
+      <path d="M 1166 50 L 1035 136" stroke-width="5"/>
+      <circle cx="1166" cy="50" r="11" stroke-width="3"/>
+    </g>
+    <rect x="1017" y="128" width="26" height="16" rx="3" fill="#F1EDF8" transform="rotate(-33 1030 136)"/>
   </g>
 </svg>
