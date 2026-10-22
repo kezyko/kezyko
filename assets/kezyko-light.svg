@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Kezyko</title>
+  <desc id="desc">A large Kezyko wordmark beside a violet vinyl record whose centre is a pair of code brackets around the spindle hole.</desc>
+
+  <text x="48" y="214" fill="#242039" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="168" font-weight="700" letter-spacing="-7">Kezyko</text>
+
+  <!-- vinyl -->
+  <g transform="translate(963 150) scale(1.1) translate(-975 -150)">
+  <g fill="none" stroke="#D8D0E8" stroke-width="1">
+    <circle cx="975" cy="150" r="145" stroke-width="2"/>
+    <circle cx="975" cy="150" r="133"/>
+    <circle cx="975" cy="150" r="121"/>
+    <circle cx="975" cy="150" r="109"/>
+    <circle cx="975" cy="150" r="97"/>
+    <circle cx="975" cy="150" r="85"/>
+    <circle cx="975" cy="150" r="73"/>
+  </g>
+
+  <!-- light catching the grooves -->
+  <g fill="none" stroke="#7241C9" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <path d="M 1039 35 A 133 133 0 0 1 1083 88"/>
+    <path d="M 911 265 A 133 133 0 0 1 867 212"/>
+  </g>
+  <g fill="none" stroke="#7241C9" stroke-width="1.5" stroke-linecap="round" opacity="0.35">
+    <path d="M 1030 52 A 109 109 0 0 1 1066 94"/>
+    <path d="M 920 248 A 109 109 0 0 1 884 206"/>
+  </g>
+
+  <!-- label -->
+  <circle cx="975" cy="150" r="44" fill="#7241C9" fill-opacity="0.08" stroke="#7241C9" stroke-width="1.5"/>
+  <g fill="none" stroke="#7241C9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 961 137 L 947 150 L 961 163"/>
+    <path d="M 989 137 L 1003 150 L 989 163"/>
+  </g>
+  <circle cx="975" cy="150" r="5" fill="#7241C9"/>
+
+  <!-- tonearm -->
+  <g stroke="#242039" fill="none" stroke-linecap="round">
+    <path d="M 1166 40 L 1036 126" stroke-width="5"/>
+    <circle cx="1166" cy="40" r="11" stroke-width="3"/>
+  </g>
+  <rect x="1018" y="118" width="26" height="16" rx="3" fill="#242039" transform="rotate(-33 1031 126)"/>
+  </g>
+</svg>
